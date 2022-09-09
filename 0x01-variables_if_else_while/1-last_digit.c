@@ -4,7 +4,7 @@
 /**
  * main - Entry point
  * Description - prints out last digit is greater or less than
- * Return - Always 0 (success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
