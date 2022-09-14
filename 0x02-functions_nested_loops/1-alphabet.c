@@ -2,18 +2,19 @@
 
 /**
  * print_alphabet - prints the alphabet, in lowercase
- *@ letter: used for argument of function
+ *
  * Return: Always 0
  */
 void print_alphabet(void)
 {
-	char letter = 'a';
+	char ch;
 
-	while
-		(letter <= 'z');
+	ch = 'a';
+
+	while (ch <= 'z')
 	{
-		_putchar(letter);
-		letter++;
+		_putchar(ch);
+		ch++;
 	}
 	_putchar('\n');
 }
