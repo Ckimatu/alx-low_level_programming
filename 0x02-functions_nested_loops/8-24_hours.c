@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * jack_bauer - function that prints every min of his day
  *
