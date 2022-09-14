@@ -1,7 +1,6 @@
 #include "main.h"
 /**
- * jack_bauer - function that prints every min of his day
- *
+ * jack_bauer - funct that prints every minute of his day, min loop counts mins while hour loop counts hours
  * Return: 0
  */
 void jack_bauer(void)
