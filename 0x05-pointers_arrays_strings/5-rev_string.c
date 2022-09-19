@@ -2,29 +2,30 @@
 
 /**
  * rev_string - reverses a string
- * @s: the used string reference pointer
+ * @s: input string
  * Return: Always 0.
  */
 
 void rev_string(char *s)
 {
-	char imv;
-	int j, tes, tes1;
+	int count = 0, i, j;
+	char *str, temp;
 
-	tes = 0;
-	tes1 = 0;
-
-	while (s[tes] != '\0')
+	while (count >= 0)
 	{
-		tes++
+		if (s[count] == '\0')
+			break;
+		count++;
 	}
+	str = s;
 
-	tes1 = tes - 1;
-
-	for (j = 0; j < tes / 2; j++)
+	for (i = 0; i < (count - 1); i++)
 	{
-		imv = s[j];
-		s[j] = s[tes1];
-		s[tes1--] = imv;
+		for (j = i + 1; j > 0; j--)
+		{
+			temp = *(str + j);
+			*(str + j) = *(strr + (j - 1));
+			*(str + (j - 1)) = temp;
+		}
 	}
 }
