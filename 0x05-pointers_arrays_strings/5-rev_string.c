@@ -8,7 +8,7 @@
 
 void rev_string(char *s)
 {
-	int count = 0, i, j;
+	int count = 0, k, p;
 	char *str, temp;
 
 	while (count >= 0)
@@ -19,13 +19,13 @@ void rev_string(char *s)
 	}
 	str = s;
 
-	for (i = 0; i < (count - 1); i++)
+	for (k = 0; k < (count - 1); k++)
 	{
-		for (j = i + 1; j > 0; j--)
+		for (p = k + 1; p > 0; p--)
 		{
-			temp = *(str + j);
-			*(str + j) = *(strr + (j - 1));
-			*(str + (j - 1)) = temp;
+			temp = *(str + p);
+			*(str + p) = *(str + (p - 1));
+			*(str + (p - 1)) = temp;
 		}
 	}
 }
