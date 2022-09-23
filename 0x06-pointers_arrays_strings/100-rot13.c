@@ -9,7 +9,7 @@
 
 char *rot13(char *str)
 {
-	int index = 0, index2;
+	int index1 = 0, index2;
 	char alphabet[52] = {'A', 'B', 'C', 'D', 'E', 'F',
 			     'G', 'H', 'I', 'J', 'K', 'L',
 			     'M', 'N', 'O', 'P', 'Q', 'R',
@@ -34,7 +34,7 @@ char *rot13(char *str)
 		{
 			if (str[index1] == alphabet[index2])
 			{
-				str[index1] = rot13[index2];
+				str[index1] = rot13key[index2];
 				break;
 			}
 		}
