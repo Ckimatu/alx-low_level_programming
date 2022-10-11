@@ -1,5 +1,5 @@
-#include "0-object_like_macro.h"
-#include "0-object_like_macro.h"
+#include "1-pi.h"
+#include "1-pi.h"
 #include <stdio.h>
 
 /**
@@ -10,10 +10,12 @@
 int main(void)
 
 {
-	int s;
-	s = 98 + SIZE;
+	float a;
+	float r;
+	r = 98;
+	a = PI * r * r;
 	
-	printf("%d\n", s);
+	printf("%.3f\n", a);
 	
 	return (0);
 
