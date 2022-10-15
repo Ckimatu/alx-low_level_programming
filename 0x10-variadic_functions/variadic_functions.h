@@ -1,10 +1,6 @@
 #ifndef VARIADIC_FUNCTIONS_H
 #define VARIADIC_FUNCTIONS_H
 
-/**
- * Description - header file containing prototypes of al my functions
- */
-
 #include <stdarg.h>
 
 /**
