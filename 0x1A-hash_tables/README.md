@@ -6,6 +6,8 @@ Projects on Hash Tables
 
 Some python dictionaries are implemented using hash tables. So much is actually happening when you type d = {'a': 1, 'b': 2}, but everything looks so simple for the user.
 
+In PHP, hash tables are ordered.
+
 *Resources*
 
 * https://www.youtube.com/watch?v=MfhjkfocRR0
@@ -15,3 +17,5 @@ Some python dictionaries are implemented using hash tables. So much is actually 
 * https://stackoverflow.com/questions/31930046/what-is-a-hash-table-and-how-do-you-make-it-in-c
 * https://www.laurentluce.com/posts/python-dictionary-implementation/
 * https://stackoverflow.com/questions/2061222/what-is-the-true-difference-between-a-dictionary-and-a-hash-table
+* https://www.php.net/manual/en/intro-whatis.php
+* https://www.phpinternalsbook.com/php5/hashtables/basic_structure.html
